@@ -1,9 +1,8 @@
 //
 //  NonNullDictionary.swift
-//  Vafroo
 //
 //  Created by Rati on 05/06/17.
-//  Copyright © 2017 flexsin. All rights reserved.
+//  Copyright © 2017 Ratti. All rights reserved.
 //
 
 import UIKit
