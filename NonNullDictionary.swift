@@ -55,6 +55,13 @@ class NonNullDictionary: NSObject {
                 let strKey : String = String.init(format: "%@", key)
                 newDic[strKey] = ""
             }
+            else if value is Array<Dictionary<String,Any>>
+            {
+                let arrNonNull : Array<Dictionary<String,Any>> = removeNull(arr: value as! Array<Dictionary<String, Any>>)
+                let strKey : String = String.init(format: "%@", key)
+                
+                newDic[strKey] = arrNonNull
+            }
         }
         
         return newDic
